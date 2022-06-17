@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div id="main-content">
+        <div class="left-content">
+          <h1>Learn to code by watching others</h1>
+          <p>
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+
+        <div class="right-content">
+          <div class="blue-content">
+            <p>
+              <span>Try it free 7 days</span> then &dollar;20/mo. thereafter
+            </p>
+          </div>
+          <form action="#">
+            <div class="validation" data-error="First Name cannot be empty">
+              <input type="text" placeholder="First Name" /><br />
+            </div>
+            <div class="validation" data-error="Last Name cannot be empty">
+              <input type="text" placeholder="Last Name" /><br />
+            </div>
+            <div
+              class="validation"
+              data-error="Looks like this is not an email"
+            >
+              <input type="email" placeholder="Email Address" /><br />
+            </div>
+            <div class="validation" data-error="Password cannot be empty">
+              <input type="password" placeholder="Password" /><br />
+            </div>
+            <button>CLAIM YOUR FREE TRIAL</button>
+            <p>
+              By clicking the button, you are agreeing to our
+              <span>Terms and Services</span>
+            </p>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
